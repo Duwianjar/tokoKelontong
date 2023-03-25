@@ -1,0 +1,100 @@
+Cloud Concepts
+
+1. Di lingkungan AWS, apa perbedaan antara metadata dan user data?
+- C. Metadata instance adalah parameter dan atribut yang ditentukan dalam konfigurasi instance. Sementara itu, user data adalah informasi yang diteruskan ke sistem operasi instance untuk dijalankan secara otomatis setelah boot time.
+
+2. Manakah dari pernyataan berikut yang paling tepat menggambarkan AWS Personal Health Dashboard?
+- B Layanan yang memberi tahu pengguna tentang aktivitas terjadwal AWS, masalah yang tertunda, dan perubahan terencana.
+
+3. Mengapa layanan Amazon DynamoDB adalah yang paling ideal untuk implementasi aplikasi mobile, Internet of Things (loT), dan game?
+- B DynamoDB memiliki model data yang fleksibel dan latensi yang sangat rendah.
+
+4. Manakah yang merupakan praktik terbaik saat merancang sistem berbasis cloud?
+- B Membangun komponen yang loosely coupled.
+
+5. Manakah yang merupakan konsep dari AWS Regions?
+- B Ia adalah wilayah geografis yang dibagi menjadi Availability Zone.
+
+6. Pilar AWS Well-Architected Framework manakah yang berfokus pada penggunaan sumber daya komputasi dengan cara yang memenuhi kebutuhan sistem?
+- B Performance Efficiency
+
+7. Pernyataan mana yang paling tepat menggambarkan Availability Zone?
+- A Bagian yang terisolasi sepenuhnya dari infrastruktur global AWS.
+
+8. Produk AWS mana yang menyediakan UI terpadu, pengelolaan aktivitas pengembangan software di satu lokasi, serta development, build, dan deployment aplikasi yang cepat di AWS?
+- B AWS CodeStar
+
+9. Pada AWS Well-Architected Framework, pilar mana yang menekankan pada pengambilan keputusan berdasarkan informasi dari data yang diproses?
+- B Performance Efficiency
+
+10. Sebuah perusahaan memiliki jumlah throughput yang sangat tinggi. Hal ini membuat perusahaan membutuhkan konektivitas dengan latensi yang sangat rendah antara infrastruktur on-premise dan AWS Cloud untuk mendukung layanan live streaming secara real time. Apa solusi yang paling tepat untuk memenuhi persyaratan ini?
+- B AWS Direct Connect
+
+11. Sebuah ELB instance dikonfigurasi dengan interval HealthCheck dan Response Timeout default masing-masing 30 detik dan 5 detik. Berapa lama waktu yang dibutuhkan sebuah instance dalam target group untuk dilabeli OutOfService jika ia down satu detik setelah HealthCheck terakhir? 
+- A 34 detik
+
+12. Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi dirancang dan dikembangkan menggunakan fitur cloud-native?
+- B Refactoring
+
+13. Tim Anda memerlukan layanan sistem file yang mounted/terpasang secara bersamaan dari berbagai EC2 instance. Layanan AWS mana yang akan memenuhi persyaratan ini?
+- B Amazon EFS
+
+14. Perhatikan pernyataan berikut:
+    Membuat beberapa IAM users dengan akses administrator untuk setiap grup fungsional perusahaan.
+    Menggunakan AWS CloudFront template versions dan revision controls untuk melacak perubahan konfigurasi yang dinamis.
+    Menggunakan AWS Organizations dengan masing-masing OU yang membedakan penagihan di seluruh fungsi perusahaan.
+    Menerapkan langkah-langkah keamanan paling ketat di sisi VPC, bukan di host sumber daya.
+    Menyediakan sumber daya dan kapasitas komputasi yang dapat mengakomodasi pertumbuhan di masa depan.
+Menurut AWS Well-Architected Framework, bagaimanakah seharusnya sebuah perusahaan dengan lingkungan yang dinamis mengelola pengguna mereka?
+- C 3 dan 4
+
+15. Manakah dari pernyataan di bawah ini yang SALAH sehubungan dengan keuntungan menggunakan cloud?
+XXX C Mendunia dalam hitungan menit.
+XXX A Hentikan biaya pengelolaan dan pemeliharaan data center.
+XXX B Manfaat dari skala ekonomi yang masif.
+- D Ubah biaya variabel menjadi biaya di muka.
+
+16. Pada AWS Cloud Adoption Framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder Anda?
+- D Operations
+
+17. Pada AWS Trusted Advisor, kategori manakah yang mencakup pemeriksaan terhadap service limits dan penggunaan instance yang berlebih?
+- C Performance
+
+18. Seorang administrator ingin menjalankan infrastruktur cloud agar sesuai dengan praktik terbaik dengan memanfaatkan layanan Amazon Inspector dan AWS Trusted Advisor. 
+Perhatikan beberapa pernyataan berikut:
+    Menjalankan Amazon Inspector untuk menyelidiki dan melindungi infrastruktur cloud dari ancaman secara teratur.
+    Mengikuti rekomendasi yang diberikan dalam pilar utama AWS Trusted Advisor, yakni cost optimization, security, performance, fault tolerance, dan service limits.
+    Secara teratur menjalankan layanan Amazon Inspector pada EC2 instance untuk mendapatkan daftar ringkas dari kerentanan keamanan.
+    AWS Trusted Advisor akan meng-highlight tugas-tugas yang tertunda agar diselesaikan dengan praktik terbaik untuk pilar performance dan cost optimization saja. Sementara itu, Amazon Inspector akan memberi tahu administrator tentang kerentanan keamanan.
+    Amazon Inspector akan meng-highlight tugas-tugas yang tertunda agar diselesaikan dengan praktik terbaik untuk pilar performance dan cost optimization. Sementara itu, AWS Trusted Advisor akan memberi tahu administrator tentang kerentanan keamanan.
+Manakah dari pernyataan di atas yang dengan tepat menjelaskan bagaimana hal ini dapat dilakukan?
+- B 2 dan 3
+
+19. Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplikasi AWS melalui skrip?
+- C AWS Command Line Interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

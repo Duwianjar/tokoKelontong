@@ -1,0 +1,68 @@
+Security 
+
+1. . . . dapat mengotomatiskan penemuan data sensitif dalam skala besar sekaligus menurunkan biaya perlindungan data Anda menggunakan machine learning dan pattern matching techniques.
+- C Amazon Macie
+
+2. Anda memiliki aplikasi yang dikembangkan dengan .NET. Aplikasi ini dijalankan di EC2 instance dan bekerja dengan S3 bucket di Region tertentu. 
+Manakah dari berikut ini yang ideal digunakan untuk memastikan EC2 instance memiliki akses yang sesuai ke S3 bucket?
+- B AWS IAM Roles
+
+3. Dalam layanan fully managed alias terkelola sepenuhnya seperti Amazon Aurora, apa implikasi dari Shared Responsibility Model?
+- C Amazon bertanggung jawab atas RDS instance, pembaruan sistem operasi, patching perangkat lunak, dan pemeliharaannya.
+
+4. Pada saat audit sistem informasi perusahaan, administrator diminta untuk memberikan file laporan keamanan dan compliance serta online service agreement antara perusahaan dan AWS. Layanan manakah yang dapat dimanfaatkan untuk memperoleh informasi ini?
+- A AWS Artifact
+
+5. Pernyataan mana yang paling tepat untuk menggambarkan Amazon GuardDuty?
+- C Layanan yang menyediakan intelligent smart detection untuk infrastruktur dan sumber daya AWS.
+
+6. Perusahaan startup yang mengembangkan aplikasi media sosial ingin memberikan akses sementara kepada developer freelance ke pengaturan Lambda function di AWS. Developer ini akan sign in melalui autentikasi Facebook. 
+Layanan mana yang paling tepat untuk memberikan akses yang aman?
+- D Menggunakan Amazon Cognito untuk web-identity federation.
+
+7. Perhatikan poin-poin berikut:
+    Password Policies
+    User permissions
+    Physical security
+    Disk disposal
+    Hardware patching
+Manakah dari persyaratan keamanan di atas yang dikelola oleh AWS?
+- D 3, 4, dan 5
+
+8. Perhatikan beberapa layanan berikut:
+    Amazon Cloudfront
+    AWS Shield
+    Amazon EC2
+    AWS Config
+    Amazon EBS
+Perusahaan Anda berencana untuk meng-hosting aplikasi e-commerce di AWS Cloud. Salah satu kekhawatiran terbesarnya adalah serangan internet semacam DDoS. Manakah dari layanan di atas yang dapat membantu mengurangi persoalan tersebut?
+- A 1 dan 2
+
+9. Perhatikan beberapa pernyataan berikut:
+    Melatih pegawai perusahaan tentang cara menggunakan layanan AWS.
+    Membuat IAM users dan IAM roles.
+    Mengonfigurasi security groups pada Amazon EC2 instance.
+    Memelihara infrastruktur virtualisasi.
+    Mengonfigurasi perangkat infrastruktur AWS.
+Dari uraian di atas, pernyataan manakah yang merupakan tanggung jawab AWS?
+- D 4 dan 5
+
+10. Seorang administrator mengelola beberapa sumber daya berbasis web publik dan privat untuk sebuah perusahaan. Layanan mana yang dapat digunakan untuk melacak, memperbarui, dan me-renewal sertifikat SSL/TLS?
+- D AWS Certificate Manager
+
+11. Saat audit eksternal berlangsung di perusahaan Anda, auditor IT harus memiliki log dari semua akses ke sumber daya AWS di akun perusahaan. Manakah dari layanan di bawah ini yang dapat membantu memberikan perincian tersebut?
+- A AWS CloudTrail
+
+
+
+
+99. Layanan mana yang dapat meninjau detail aktivitas pengguna dan panggilan API dalam lingkungan AWS Anda?
+
+99.Perhatikan beberapa pernyataan berikut:
+    Melakukan semua konfigurasi keamanan dan tugas manajemen yang diperlukan untuk Amazon EC2.
+    Manajemen patch OS dan aplikasi.
+    Keamanan data di cloud.
+    Keamanan dari cloud.
+    Manajemen patch di dalam infrastruktur.
+Keamanan dan Compliance adalah tanggung jawab bersama antara AWS dan pelanggan. Manakah di antara opsi di atas yang merupakan tanggung jawab AWS?
+XXX C 3 dan 4

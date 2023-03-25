@@ -1,0 +1,141 @@
+Technology
+
+1. Anda ingin mengirim dan menerima pesan antara komponen aplikasi terdistribusi. Layanan mana yang harus Anda gunakan?
+- D Amazon SQS
+
+2. Mengapa perlu waktu antara 24 hingga 48 jam agar perubahan yang dilakukan pada hosted zone di Amazon Route 53 terlihat secara global?
+- B DNS resolver di seluruh dunia hanya dapat melakukan perubahan dalam cache mereka setelah Time To Live (TTL) kedaluwarsa, yaitu 24 jam secara default.
+
+3. Anda ingin menyimpan data dalam volume yang di-attach ke Amazon EC2 instance.  Layanan mana yang harus Anda gunakan?
+- C Amazon EBS
+
+4. Perhatikan uraian berikut:
+    S3 Glacier
+    S3 Standard
+    S3 Glacier Deep Archive
+    S3 One Zone-IA
+    S3 Standard-IA
+Pada kelas penyimpanan S3 Intelligent-Tiering, Amazon S3 akan memindahkan objek antara yang sering diakses dan jarang diakses. Kelas penyimpanan mana saja yang digunakan untuk tingkatan ini?
+- B 2 dan 5
+
+5. Seorang teman datang kepada Anda untuk meminta saran. Ia tak begitu paham dengan teknologi namun ingin membuat website untuk acara kampus dengan harga yang hemat dan antarmuka yang ramah untuk pemula. Apa yang akan Anda sarankan kepadanya?
+- D Gunakan AWS Lightsail.
+
+6. Untuk memaksimalkan kepuasan pengguna, Anda diminta untuk meningkatkan kinerja aplikasi, baik untuk pengguna lokal maupun global. Sebagai bagian dari inisiatif ini, Anda harus memantau kesehatan endpoint aplikasi dan mengarahkan lalu lintas ke endpoint aplikasi yang paling sesuai. Layanan mana yang harus Anda pilih untuk skenario ini?
+- C Amazon Global Accelerator
+
+7. Tim Anda sedang meningkatkan fitur keamanan pada aplikasi perbankan. Tim memerlukan penerapan layanan deteksi ancaman yang terus memantau aktivitas berbahaya dan perilaku mencurigakan untuk melindungi akun AWS, beban kerja, dan data yang disimpan di Amazon S3. Layanan AWS mana yang harus dipilih tim Anda? 
+- A Amazon GuardDuty
+
+8. Anda ingin Amazon S3 ikut membantu memantau pola akses dari objek Anda. Kelas penyimpanan mana yang harus Anda gunakan?
+- A S3 Intelligent-Tiering
+
+9. Layanan mana yang memungkinkan Anda membuat alur kerja untuk peninjauan manusia terhadap prediksi machine learning?
+- C Amazon Augmented AI
+
+10. Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center Anda dan virtual private cloud (VPC)?
+- D AWS Direct Connect
+
+11. Tim Anda berencana untuk membangun lingkungan pengembangan di cloud yang terdiri dari Amazon EC2 dan Amazon RDS. Lingkungan tersebut hanya akan dibutuhkan selama 2 bulan saja. Tipe instance apa yang akan Anda gunakan untuk tujuan ini?
+- A On-Demand
+
+12. Anda ingin menyimpan data dalam database key-value. Layanan mana yang harus Anda gunakan?
+- B Amazon DynamoDB
+
+13. Pernyataan mana yang paling tepat untuk menggambarkan Elastic Load Balancing?
+- C Layanan yang mendistribusikan lalu lintas masuk ke beberapa target, seperti Amazon EC2 instance.
+
+14. Anda menjalankan Amazon EC2 instance dan ingin menyimpan data di dalam suatu tempat penyimpanan. Data Anda bersifat sementara dan tidak akan disimpan dalam jangka panjang.  Sumber daya mana yang harus Anda gunakan?
+- C Instance store
+
+15. Sebuah website olahraga internasional ingin menyajikan kontennya kepada pelanggan dari berbagai belahan dunia sesuai bahasa setempat. Manakah layanan paling cocok untuk memungkinkan perbedaan versi bahasa dari website yang sama?
+- B Amazon Route 53
+
+16. Pernyataan mana yang BENAR terkait AWS Lambda?
+- A Anda hanya membayar untuk waktu komputasi saat kode berjalan.
+
+17. Layanan mana yang digunakan untuk melakukan deploy dan scaling aplikasi dengan cepat di AWS?
+- A AWS Elastic Beanstalk
+
+18. Manakah dari fitur Amazon RDS berikut yang memungkinkan ketersediaan database menjadi lebih baik?
+- A Multi-AZ
+
+19. Berikut adalah beberapa layanan yang bisa disebut sebagai serverless, kecuali ...
+- A Elastic Load Balancing
+
+20. Layanan apa yang digunakan untuk mentransfer hingga 80 PB data ke AWS?
+- A AWS Snowmobile
+
+21. Komponen virtual private cloud (VPC) mana yang mengontrol lalu lintas masuk dan keluar untuk Amazon EC2 instance?
+- B Security group
+
+22. Perhatikan pernyataan berikut:
+    Dua VPC di AWS Regions yang berbeda dan di bawah akun AWS yang terpisah dapat berbagi lalu lintas satu sama lain.
+    Agar VPC peering berfungsi, setiap VPC harus memiliki subnet publik.
+    Di VPC peering, traffic dari satu VPC melewati VPC transit untuk mencapai VPC ketiga.
+    Lalu lintas antara sesama VPC di AWS Regions yang berbeda tidak dienkripsi secara default.
+    VPC peering dapat digunakan untuk mereplikasi data ke lokasi yang berbeda secara geografis untuk fault tolerance, disaster recovery, dan redundancy.
+Pernyataan mana yang paling akurat terkait VPC peering?
+- A 1 dan 5
+
+23. Pernyaan mana yang paling tepat untuk menggambarkan AWS Marketplace ?
+- D Katalog digital yang mencakup ribuan perangkat lunak dari berbagai vendor
+
+24. Developer di departemen operasi ingin menggunakan IDE untuk menjalankan, menguji, dan men-debug kode untuk Lambda function. Layanan AWS mana yang paling sesuai?
+- D AWS Cloud9
+
+25. Manakah dari berikut ini yang secara akurat menjelaskan kasus penggunaan umum untuk layanan AWS CodePipeline?
+- A Untuk mengatur dan mengotomatiskan berbagai fase pada rilis pembaruan aplikasi berdasarkan model rilis yang Anda tentukan.
+
+26. Manakah dari skenario berikut yang TIDAK cocok untuk menggunakan resource groups untuk mengelompokkan sumber daya?
+- B Sumber daya AWS yang digunakan untuk berbagai proyek dan tidak terkait 
+
+27. Layanan apa yang digunakan untuk menjalankan containerized application di AWS?
+- B Amazon EKS 
+
+28. Manakah layanan yang memungkinkan Anda untuk mendistribusikan beban ke beberapa EC2?
+- A AWS Elastic Load Balancer
+
+29. Perhatikan beberapa pernyataan berikut:
+    Memantau aplikasi Anda dan merespons perubahan performa di seluruh sistem.
+    Menghubungkan permintaan pengguna ke infrastruktur di AWS dan di luar AWS.
+    Mengelola DNS records untuk nama domain.
+    Mengakses laporan keamanan dan compliance AWS serta online agreements tertentu.
+    Mengotomatiskan penerapan beban kerja ke lingkungan AWS Anda.
+Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
+- B 2 dan 3
+
+30. Tindakan apa yang dapat Anda lakukan dengan Amazon CloudFront?
+- C Mengirimkan konten ke pelanggan melalui jaringan global edge locations.
+
+
+
+
+
+
+
+
+
+99. Di manakah kita bisa melihat informasi terkini tentang ketersediaan layanan AWS?
+
+99. Sebuah perusahaan asuransi kesehatan membutuhkan cara untuk mengelola manajemen cryptographic key secara lokal guna memastikan data sensitif pasien aman. Bagaimana perusahaan dapat mencapai hal tersebut, mengingat semua beban kerja mereka ada di cloud?
+
+99. Di manakah kita bisa melihat informasi terkini tentang ketersediaan layanan AWS?
+
+
+99. Manakah dari berikut ini yang membantu Anda untuk membuat bagian terisolasi dari AWS Cloud?
+CCC AWS VPC
+
+99. Seorang administrator perlu mengelola akses ke layanan AWS tertentu untuk banyak IAM users dan IAM groups di berbagai departemen operasional. Layanan AWS mana yang paling sesuai untuk digunakan?
+XXX B IAM Policies
+XXX A AWS Organizations
+
+
+
+
+99. Seorang administrator ingin menginstal dan menjalankan konfigurasi CloudWatch Agent yang sama pada 10 Amazon EC2 instance untuk mengumpulkan metrik. Metode apa yang paling efisien untuk mencapai tujuan ini?
+CCC D Instal dan konfigurasikan CloudWatch Agent di salah satu EC2 instance, lalu tulis konfigurasi CloudWatch Agent ke penyimpanan parameter AWS Systems Manager (SSM). Instal konfigurasi CloudWatch Agent dari SSM ke 9 EC2 instance lainnya.
+
+
+
+
