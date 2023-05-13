@@ -1,9 +1,0 @@
-Billing and Pricing 
-
-1. Sebuah akun anggota dalam AWS Organizations (menggunakan consolidated billing) ingin menerima laporan rincian biaya harian berdasarkan produk agar dapat melakukan analisis biaya dan penggunaan. Di manakah tempat pengiriman laporan tersebut?
-- A S3 bucket yang dimiliki oleh akun utama.
-
-99. Opsi komputasi mana yang dapat mengurangi biaya jika Anda berkomitmen pada jumlah penggunaan komputasi yang konsisten untuk jangka waktu 1 atau 3 tahun?
-XXX D Reserved Instances
-
-
